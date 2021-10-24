@@ -1,17 +1,120 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
+    <ion-buttons>
+
+      <ion-chip [routerLink]="['../tab3']">
+        Actualizacion
+      </ion-chip>
+
+      <ion-chip [routerLink]="['../mensajes']">
+        Mensaje
+      </ion-chip>
+
+      <ion-button (click)="presentAlert()">
+        <ion-icon slot="end" name="options-sharp"></ion-icon>
+      </ion-button>
+      
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <!-- List of Text Items -->
+<ion-list>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <ion-item>
+    <ion-card>
+      <p>Imágenes del telescopio espacial Hubble, Galaxia de andrómeda y más Pines en tendencia en Pinterest</p>
+      <img src="assets/images/act1.jpg" alt="">
+      <img src="assets/images/act2.jpg" alt="">
+      <img src="assets/images/act3.jpg" alt="">
+      <img src="assets/images/act4.jpg" alt="">
+      <img src="assets/images/act5.jpg" alt="">
+      <img src="assets/images/act6.jpg" alt="">
+    </ion-card>
+  </ion-item>
+
+  <ion-item>
+    <ion-card>
+      <p>Midas♧, Midas -w- Y Otros Agentes xd y 8 tableros más inspirados en tu actividad reciente</p>
+      <img src="assets/images/act7.jpg" alt="">
+      <img src="assets/images/act8.jpg" alt="">
+      <img src="assets/images/act9.jpg" alt="">
+    </ion-card>
+  </ion-item>
+
+  <ion-item>
+    <ion-card>
+      <p>16 ideas que gustan a las personas ahora mismo</p>
+      <img src="assets/images/act10.jpg" alt="">
+      <img src="assets/images/act11.jpg" alt="">
+      <img src="assets/images/act12.jpg" alt="">
+    </ion-card>
+  </ion-item>
+
+
+  <ion-item>
+    <ion-card>
+      <p>Sho-Fong Tenwalde ha guardado un Pin de fanart</p>
+      <img src="assets/images/3abec9ac8b15a252b5a184504cd2b075.jpg" alt="">
+    </ion-card>
+  </ion-item>
+
+  <ion-item>
+    <ion-card>
+      <p>Valeria Medina ha guardado tu Pin</p>
+      <img src="assets/images/3abec9ac8b15a252b5a184504cd2b075.jpg" alt="">
+      <img src="assets/images/6a3206f4f1b721d8b6a6fb707992e9e9.jpg" alt="">
+      <img src="assets/images/5d600999c0859e723b96f198fdf5dd5a.jpg" alt="">
+      <img src="assets/images/5d600999c0859e723b96f198fdf5dd5a.jpg" alt="">
+      <img src="assets/images/427bd1fa6fb12054dfd3eddaa9a95b44.jpg" alt="">
+      <img src="assets/images/690ef30def30727734ff60fb88c8e1f0.jpg" alt="">
+    </ion-card>
+  </ion-item>
+
+  <ion-item>
+    <ion-card>
+      <p>Alexie Jacob ha guardado tu Pin</p>
+      <img src="assets/images/act16.jpg" alt="">
+      <img src="assets/images/act17.jpg" alt="">
+      <img src="assets/images/act18.jpg" alt="">
+      <img src="assets/images/act19.jpg" alt="">
+      <img src="assets/images/act20.jpg" alt="">
+    </ion-card>
+  </ion-item>
+
+  <ion-item>
+    <ion-card>
+      <p>Tu Pin se ha guardado 3 veces</p>
+      <img src="assets/images/act13.jpg" alt="">
+      <img src="assets/images/act14.jpg" alt="">
+      <img src="assets/images/act15.jpg" alt="">
+    </ion-card>
+  </ion-item>
+
+
+  <ion-item>
+    <ion-card>
+      <p>Alfredo velazquez ha guardado un Pin de sofia</p>
+      <img src="assets/images/act24.jpg" alt="">
+      <img src="assets/images/act25.jpg" alt="">
+      <img src="assets/images/act26.jpg" alt="">
+    </ion-card>
+  </ion-item>
+
+
+  <ion-item>
+    <ion-card>
+      <p>^^&Nezuko}~♡ 🤝❤✨🧁🥰 ha guardado un Pin de fortnite</p>
+      <img src="assets/images/act21.jpg" alt="">
+      <img src="assets/images/act22.jpg" alt="">
+      <img src="assets/images/act23.jpg" alt="">
+    </ion-card>
+  </ion-item>
+
+  
+
+</ion-list>
+
+
 </ion-content>

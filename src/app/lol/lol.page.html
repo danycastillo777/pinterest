@@ -1,0 +1,166 @@
+<ion-app>
+  
+</ion-app>
+
+<ion-app>
+  
+
+  <!-- slider -->
+  <div>
+    <ion-slides [options]="option" class="ion-margin-top">
+
+      <ion-slide>
+        <ion-button color="new" [routerLink]="['../tab1']"> <!-- iconos -- new -->
+          Todo
+        </ion-button>
+      </ion-slide>
+
+      <ion-slide>
+        <ion-button color="new" [routerLink]="['../jojo']">
+          Jojo's
+        </ion-button>
+      </ion-slide>
+
+      <ion-slide>
+        <ion-button color="new" [routerLink]="['../horizon']">
+          Horizont
+        </ion-button>
+      </ion-slide>
+
+      <ion-slide>
+        <ion-button color="new" [routerLink]="['../fortnite']"> <!-- esta es la paginacion <3 -->
+          Fortnite
+        </ion-button>
+      </ion-slide>
+
+      <ion-slide>
+        <ion-button color="new" [routerLink]="['../lol']">
+          LoL
+        </ion-button>
+      </ion-slide>
+
+      <ion-slide>
+        <ion-button color="new" [routerLink]="['../genshin']">
+          Genshin Impact
+        </ion-button>
+      </ion-slide>
+
+      <!-- <ion-slide>
+        <ion-button color="new" class="b" ><ion-icon class="cambia" name="sunny-sharp"></ion-icon></ion-button>
+      </ion-slide> -->
+
+     <!--  <ion-buttons>
+        <ion-button color="iconos" [routerLink]="['../tab1']">Todo</ion-button>
+      </ion-buttons> -->
+
+    </ion-slides>
+  </div>
+<!-- fin del slider -->
+
+
+
+
+<ion-content>
+<ion-grid>
+  <ion-row>
+    <ion-col size="6">
+      <img  (click)="presentAlert()" src="assets/images/lol1.jpg" alt="">
+    </ion-col>
+    <ion-col size="6">
+      <img (click)="presentAlert()" src="assets/images/lol2.jpg" alt="">
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col size="6">
+      <img (click)="presentAlert()" src="assets/images/lol3.jpg" alt="">
+    </ion-col>
+    <ion-col size="6">
+      <img (click)="presentAlert()" src="assets/images/lol4.jpg" alt="">
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col size="6">
+      <img (click)="presentAlert()" src="assets/images/lol5.jpg" alt="">
+    </ion-col>
+    <ion-col size="6">
+      <img (click)="presentAlert()" src="assets/images/lol6.jpg" alt="">
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col size="6">
+      <img (click)="presentAlert()" src="assets/images/lol7.jpg" alt="">
+    </ion-col>
+    <ion-col size="6">
+      <img (click)="presentAlert()" src="assets/images/lol8.jpg" alt="">
+    </ion-col>
+  </ion-row>
+  
+</ion-grid>
+</ion-content>
+      
+    
+
+<!-- <img src="assets/images/5cc0fb3dba50b36f1fa404aea8d840a1.jpg" alt=""> -->
+
+
+
+
+
+<!-- inicio del footer -->
+  <!-- <ion-footer>
+    <ion-content>
+      <ion-grid>
+        <ion-row>
+
+          <ion-col size="3" size-sm>
+            <ion-buttons>
+              <ion-button>
+                <ion-icon class="custom-icon" name="home-outline"></ion-icon>
+              </ion-button>
+            </ion-buttons>
+          </ion-col>
+
+          <ion-col size="3" size-sm>
+            <ion-buttons>
+              <ion-button>
+                <ion-icon class="custom-icon" name="search-outline"></ion-icon>
+              </ion-button>
+            </ion-buttons>
+          </ion-col>
+
+          <ion-col size="3" size-sm>
+            <ion-buttons>
+              <ion-button>
+                <ion-icon class="custom-icon" name="chatbubble-ellipses-outline"></ion-icon>
+              </ion-button>
+            </ion-buttons>
+          </ion-col>
+
+          <ion-col size="3" size-sm>
+            <ion-buttons>
+              <ion-button>
+                <ion-icon class="custom-icon" name="person-outline"></ion-icon>
+              </ion-button>
+            </ion-buttons>
+          </ion-col>
+
+        </ion-row>
+      </ion-grid>
+    </ion-content>
+
+    
+    
+    <ion-toolbar>
+      <ion-icon class="custom-icon" name="search-outline"></ion-icon>
+      <ion-icon class="custom-icon" name="chatbubble-ellipses-outline"></ion-icon>
+      <ion-icon class="custom-icon" name="person-outline"></ion-icon>
+    </ion-toolbar>
+    
+  </ion-footer> -->
+
+  
+  
+</ion-app>

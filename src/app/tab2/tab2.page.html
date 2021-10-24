@@ -1,17 +1,91 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
+    <!-- Searchbar with danger color -->
+    <ion-searchbar color="medium">  </ion-searchbar>
+    <ion-icon slot="end" name="camera-sharp"></ion-icon>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <h1>Mas Ideas:</h1>
+
+  
+    <ion-slides>
+      <ion-slide>
+        <img src="assets/images/cumple.jpg" alt="">
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/images/paisaje.jpg" alt="">
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/images/frases.jpg" alt="">
+      </ion-slide>
+      <ion-slide>
+        <div>
+          <ion-button>Mas</ion-button>
+        </div>
+      </ion-slide>
+    </ion-slides>
+  
+    <p>Ideas Para Ti:</p>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col size="6">
+        <ion-card>
+          <img src="assets/images/ideas1.jpg" alt="">
+        </ion-card>
+        </ion-col>
+
+        <ion-col size="6">
+        <ion-card>
+          <img src="assets/images/ideas2.jpg" alt="">
+        </ion-card>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col size="6">
+        <ion-card>
+          <img src="assets/images/ideas3.jpg" alt="">
+        </ion-card>
+        </ion-col>
+
+        <ion-col size="6">
+        <ion-card>
+          <img src="assets/images/ideas4.jpg" alt="">
+        </ion-card>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col size="6">
+        <ion-card>
+          <img src="assets/images/ideas5.jpg" alt="">
+        </ion-card>
+        </ion-col>
+
+        <ion-col size="6">
+        <ion-card>
+          <img src="assets/images/ideas6.jpg" alt="">
+        </ion-card>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col size="6">
+        <ion-card>
+          <img src="assets/images/ideas7.jpg" alt="">
+        </ion-card>
+        </ion-col>
+
+        <ion-col size="6">
+        <ion-card>
+          <img src="assets/images/ideas8.jpg" alt="">
+        </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
 </ion-content>

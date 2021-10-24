@@ -1,0 +1,124 @@
+<ion-header>
+  <ion-toolbar>
+   
+      <ion-buttons slot="start">
+        <ion-button>
+          <ion-icon slot="icon-only" name="person-circle"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+      <ion-buttons slot="primary">
+        <ion-button color="secondary">
+          <ion-icon slot="icon-only" ios="ellipsis-horizontal" md="ellipsis-horizontal"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+      <p>Hersson Omar</p>
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-item> 
+  <ion-label>Tema oscuro</ion-label> 
+   <ion-toggle color="iconos" slot="end" (ionChange)='toggleTheme($event)'></ion-toggle> 
+ </ion-item>
+
+ <ion-toolbar>
+
+<ion-item>
+  <!-- Searchbar with a cancel button and custom cancel button text -->
+  <ion-searchbar showCancelButton="focus" cancelButtonText="Custom Cancel"></ion-searchbar>
+  <ion-icon slot="end" name="options-sharp"></ion-icon>
+  <ion-icon slot="end" name="add-sharp"></ion-icon>
+</ion-item>
+
+</ion-toolbar>
+
+
+<ion-content>
+
+  <ion-content>
+
+    <h3>Tus Pines</h3>
+
+
+    <ion-grid>
+
+      <ion-row>
+        <ion-col size="6">
+          <ion-card>
+              <img src="assets/images/fortnite.jpg" alt="">
+          </ion-card>
+
+          <div id="texto">
+            <strong id="t2">Fortnite</strong>
+            <p>2345 Pines<ion-text style="margin-left: 9px;" color="iconos"></ion-text></p>
+          </div> 
+
+        </ion-col>
+
+        <ion-col size="6">
+          <ion-card>
+              <img src="assets/images/animales.jpg" alt="">
+          </ion-card>
+
+          <div id="texto">
+            <strong id="t2">Animales</strong>
+            <p>645 Pines<ion-text style="margin-left: 9px;" color="iconos"></ion-text></p>
+          </div> 
+
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col size="6">
+          <ion-card>
+              <img src="assets/images/horizon.jpg" alt=""> 
+          </ion-card>
+
+          <div id="texto">
+            <strong id="t2">Horizont</strong>
+            <p>785 Pines<ion-text style="margin-left: 9px;" color="iconos"></ion-text></p>
+          </div> 
+
+        </ion-col>
+        <ion-col size="6">
+          <ion-card>
+              <img src="assets/images/genshin.jpg" alt="">
+          </ion-card>
+
+          <div id="texto">
+            <strong id="t2">Genshin</strong>
+            <p>1783 Pines<ion-text style="margin-left: 9px;" color="iconos"></ion-text></p>
+          </div> 
+
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col size="6">
+          <ion-card>
+              <img src="assets/images/aloy.jpg" alt="">
+                
+          </ion-card>
+          <div id="texto">
+            <strong id="t2">Aloy</strong>
+            <p>350 Pines<ion-text style="margin-left: 9px;" color="iconos"></ion-text></p>
+          </div>  
+
+        </ion-col>
+        <ion-col size="6">
+          <ion-card>
+              <img src="assets/images/bb.jpg" alt="">
+          </ion-card>
+          
+          <div id="texto">
+            <strong id="t2">Rae</strong>
+            <p>290 Pines<ion-text style="margin-left: 9px;" color="iconos"></ion-text></p>
+          </div> 
+
+        </ion-col>
+      </ion-row>
+
+    </ion-grid>
+  </ion-content>
+
+</ion-content>
